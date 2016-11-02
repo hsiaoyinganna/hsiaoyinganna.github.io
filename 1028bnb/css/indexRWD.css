@@ -1,0 +1,511 @@
+@charset "utf-8";
+
+@media screen and (max-width: 480px) {
+body{
+	margin: 0;
+	}
+#bgv{
+	min-width: 100%;
+	min-height: 345px;
+	position: absolute;
+	height: auto;
+	width: auto;
+	z-index: -9999999;	
+	display: none;
+	}
+#header{
+	width: 100%;
+	height: 46px;
+	position: absolute;
+	z-index: 999;
+	background-color: #FFF;
+	color: rgba(72, 72, 72, 1.0);
+}	
+#logo{
+	display: none;
+	background-image: url(../imgs/logo.jpg);
+	width: 139px;
+	height: 61px;
+	float: left;
+}
+#gowhere{
+	background-image: url(../imgs/gowheretab.jpg);
+	width: 634.78px;
+	height: 46px;
+}
+#nav{
+	display: none;
+	margin-top: 25px; 
+}
+#login{
+	display: none;
+	float: right;
+	width: 67px;
+}
+#registered{
+	display: none;
+	float: right;
+	width: 67px;
+}
+#help{
+	display: none;
+	float: right;
+	width: 67px;
+}
+#landlord{
+	display: none;
+	float: right;
+	width: 100px;
+	margin-right: 19.5px;
+	border: 1px solid #C4C4C4;
+    border-radius: 3px; 
+    border-top: 2px;
+    border-bottom: 2px;
+    }
+#content{
+	background-image: url('../imgs/5.jpg');
+	width: 100%;
+	height: 354px;
+	padding-top: 46px;
+	position: relative;
+}
+#textA{
+	color: #FFF;
+}
+#link{
+	width: 165.6px;
+	height: 40px;
+	border: 2px solid;
+    border-radius: 2px;
+	opacity: 0.7;
+	font-size: 1.11em;
+	background-color: rgba(255,255,255,0.3);
+	margin-top: 75.5px;
+		}
+#text1{
+	width: 190px;
+	height: 24px;
+	font-size: 2em;
+	bottom: 170px;
+	position: absolute;
+	left: 22vw;
+	}
+#text2{
+	bottom: 120px;
+	left: 15vw;
+	position: absolute;
+	}
+#booking{
+	width: 95vw;
+	height: 42.5px;
+	background-color: #FFF;
+	position: absolute;
+	bottom: 20px;
+}
+#location{
+	width: 100%;
+	height: 600px;
+	background-color:#FFF;
+	color: #FFF;
+	padding-top: 51px;
+	}
+#textB{
+	width: 100%;
+	height: 30px;
+	padding-bottom: 12px;
+	font-size: 1.5em;
+	color: #474747;
+	}
+#textC{
+	width: 100%;
+	height: 16px;
+	padding-bottom: 40px;
+	color: #474747;
+	}
+#locationpic{
+	width: 100%;
+	height: 1050px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 48px;	
+}
+#picA{
+	width: 100%;
+	height: 350px;
+	background-image: url(../imgs/picA.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+#picB{
+	width: 100%;
+	height: 350px;
+	background-image: url(../imgs/picB.jpg);
+	background-size: cover;
+	background-position: center center;
+} 
+#picC{
+	width: 100%;
+	height: 350px;
+	background-image: url(../imgs/picC.jpg);
+	background-size: cover;
+	background-position: center center;
+}	
+
+a{
+	font-size: 1.33em;
+	color: gray;
+	text-decoration: none;
+	border-radius: 15px 21px 20px 16px;
+	-moz-border-radius: 15px 21px 20px 16px;
+	-webkit-border-radius: 15px 21px 20px 16px;
+	border: 1px solid rgba(33,33,33, 0.3);
+	padding: 5px;
+}
+a:hover{
+	color: white;
+	text-decoration: none;
+	border-radius: 15px 21px 20px 16px;
+	-moz-border-radius: 15px 21px 20px 16px;
+	-webkit-border-radius: 15px 21px 20px 16px;
+	border: 1px solid gray;
+	padding: 5px;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    body{
+	margin: 0;
+	}
+
+#header{
+	width: 100%;
+	height: 61px;
+	position: fixed;
+	z-index: 999;
+	background-color: #FFF;
+	color: rgba(72, 72, 72, 1.0);
+}	
+#bgv{
+	min-width: 100%;
+	min-height: 345px;
+	position: absolute;
+	height: auto;
+	width: auto;
+	z-index: -9999999;	
+	display: none;
+	}
+#logo{
+	background-image: url(../imgs/logo.jpg);
+	width: 139px;
+	height: 61px;
+	float: left;
+}
+#gowhere{
+	background-image: url(../imgs/gowhere.jpg);
+	width: 139px;
+	height: 61px;
+	float: left;
+}
+#nav{
+	margin-top: 25px; 
+}
+#login{
+	float: right;
+	width: 67px;
+}
+#registered{
+	float: right;
+	width: 67px;
+}
+#help{
+	float: right;
+	width: 67px;
+}
+#landlord{
+	float: right;
+	width: 100px;
+	margin-right: 19.5px;
+	border: 1px solid #C4C4C4;
+    border-radius: 3px; 
+    border-top: 2px;
+    border-bottom: 2px;
+    }
+#content{
+	width: 100%;
+	height: 345px;
+	padding-top: 215px;
+	position: relative;
+	background-image: url('../imgs/5.jpg');
+}
+#textA{
+	color: #FFF;
+}
+#text1{
+	width: 337px;
+	height: 32px;
+	font-size: 3em;
+	padding-bottom: 25px;
+	}
+#text2{
+	width: 60vh;
+	height: 80px;
+	padding-bottom: 25px;
+	}
+#link{
+	width: 174px;
+	height: 40px;
+	font-size: 1.5em;
+	border: 2px solid rgba(33, 33, 33, 0.8);
+    border-radius: 25px;
+	opacity: 0.7;
+	}
+
+#booking{
+	width: 100%;
+	height: 105px;
+	background-color: rgba(255,255,255,0.5);
+	position: absolute;
+	bottom: 0px;
+}
+#location{
+	width: 100%;
+	height: 600px;
+	background-color:#FFF;
+	color: #FFF;
+	padding-top: 25px;
+	}
+#textB{
+	width: 100%;
+	height: 16px;
+	padding-bottom: 30px;
+	font-size: 2.5em;
+	color: gray;
+
+	}
+#textC{
+	width: 100%;
+	height: 16px;
+	padding-bottom: 32px;
+	font-size: 1.33em;
+	color: gray;
+	}
+#locationpic{
+	width: 649px;
+	height: 750px;
+	}
+#picA{
+	width: 649px;
+	height: 343px;
+	background-image: url(../imgs/picA.jpg);
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 29px;
+	background-size: cover;
+	background-position: center center;
+}
+#picB{
+	width: 320px;
+	height: 343px;
+	background-image: url(../imgs/picB.jpg);
+	float: left;
+	background-size: cover;
+	background-position: center center;
+} 
+#picC{
+	width: 320px;
+	height: 343px;
+	background-image: url(../imgs/picC.jpg);
+	float: right;
+	background-size: cover;
+	background-position: center center;
+}	
+a{
+	font-size: 1.33em;
+	color: gray;
+	text-decoration: none;
+	border-radius: 15px 21px 20px 16px;
+	-moz-border-radius: 15px 21px 20px 16px;
+	-webkit-border-radius: 15px 21px 20px 16px;
+	border: 1px solid rgba(33,33,33, 0.3);
+	padding: 5px;
+}
+a:hover{
+	color: white;
+	background-color: #474747;
+	text-decoration: none;
+	border-radius: 15px 21px 20px 16px;
+	-moz-border-radius: 15px 21px 20px 16px;
+	-webkit-border-radius: 15px 21px 20px 16px;
+	border: 1px solid gray;
+	padding: 5px;	
+}
+}
+
+@media screen and (min-width: 769px){
+    body{
+	margin: 0;
+	}
+#bgv{
+	min-width: 100%;
+	min-height: 345px;
+	position: absolute;
+	height: auto;
+	width: auto;
+	z-index: -9999999;	
+	}
+#header{
+	width: 100%;
+	height: 61px;
+	position: fixed;
+	z-index: 999;
+	background-color: #FFF;
+	color: rgba(72, 72, 72, 1.0);
+}	
+#logo{
+	background-image: url(../imgs/logo.jpg);
+	width: 139px;
+	height: 61px;
+	float: left;
+}
+#gowhere{
+	background-image: url(../imgs/gowhere.jpg);
+	width: 139px;
+	height: 61px;
+	float: left;
+}
+#nav{
+	margin-top: 25px; 
+}
+#login{
+	float: right;
+	width: 67px;
+}
+#registered{
+	float: right;
+	width: 67px;
+}
+#help{
+	float: right;
+	width: 67px;
+}
+#landlord{
+	float: right;
+	width: 100px;
+	margin-right: 19.5px;
+	border: 1px solid #C4C4C4;
+    border-radius: 3px; 
+    border-top: 2px;
+    border-bottom: 2px;
+    }
+#content{
+	width: 100%;
+	height: 345px;
+	padding-top: 215px;
+	position: relative;
+}
+#textA{
+	color: #FFF;
+}
+#text1{
+	width: 337px;
+	height: 32px;
+	font-size: 3em;
+	padding-bottom: 25px;
+	}
+#text2{
+	width: 60vh;
+	height: 80px;
+	padding-bottom: 25px;
+	}
+#link{
+	width: 174px;
+	height: 40px;
+	font-size: 1.5em;
+	border: 2px solid rgba(33, 33, 33, 0.8);
+    border-radius: 25px;
+	opacity: 0.7;
+	}
+
+#booking{
+	width: 100%;
+	height: 105px;
+	background-color: rgba(255,255,255,0.5);
+	position: absolute;
+	bottom: 0px;
+}
+#location{
+	width: 100%;
+	height: 600px;
+	background-color:#FFF;
+	color: #FFF;
+	padding-top: 25px;
+	}
+#textB{
+	width: 100%;
+	height: 16px;
+	padding-bottom: 30px;
+	font-size: 2.5em;
+	color: gray;
+
+	}
+#textC{
+	width: 100%;
+	height: 16px;
+	padding-bottom: 32px;
+	font-size: 1.33em;
+	color: gray;
+	}
+#locationpic{
+	width: 1029px;
+	height: 343px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 48px;	
+}
+#picA{
+	width: 320px;
+	height: 343px;
+	background-image: url(../imgs/picA.jpg);
+	margin-right: 26px;
+	float: left;
+	background-size: cover;
+	background-position: center center;
+}
+#picB{
+	width: 320px;
+	height: 343px;
+	background-image: url(../imgs/picB.jpg);
+	margin-right: 26px;
+	float: left;
+	background-size: cover;
+	background-position: center center;
+} 
+#picC{
+	width: 320px;
+	height: 343px;
+	background-image: url(../imgs/picC.jpg);
+	float: left;
+	background-size: cover;
+	background-position: center center;
+}	
+a{
+	font-size: 1.33em;
+	color: gray;
+	text-decoration: none;
+	border-radius: 15px 21px 20px 16px;
+	-moz-border-radius: 15px 21px 20px 16px;
+	-webkit-border-radius: 15px 21px 20px 16px;
+	border: 1px solid rgba(33,33,33, 0.3);
+	padding: 5px;
+}
+a:hover{
+	color: white;
+	background-color: #474747;
+	text-decoration: none;
+	border-radius: 15px 21px 20px 16px;
+	-moz-border-radius: 15px 21px 20px 16px;
+	-webkit-border-radius: 15px 21px 20px 16px;
+	border: 1px solid gray;
+	padding: 5px;
+}
+}
